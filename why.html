@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>لماذا لازورد</title>
+<style>
+/* قسم الإحصائيات في صفحة لماذا نحن */
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.stat-item {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-10px);
+    border-bottom: 4px solid #3498db;
+}
+
+.stat-item h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="why.html">لماذا</a>
+<a href="services.html">الخدمات</a>
+<a href="solutions.html">الحلول</a>
+<a href="pricing.html">التسعير</a>
+<a href="learn.html">تعلم</a>
+</nav>
+</header>
+
+ <section class="achievements">
+    <div class="stat-item">
+        <h2 style="color: #2ecc71;">+500</h2>
+        <p>مشروع تم تسليمه بنجاح</p>
+    </div>
+    <div class="stat-item">
+        <h2 style="color: #3498db;">+120</h2>
+        <p>عميل سعيد حول العالم</p>
+    </div>
+    <div class="stat-item">
+        <h2 style="color: #e67e22;">98%</h2>
+        <p>نسبة رضا العملاء</p>
+    </div>
+</section>
+
+</body>
+</html>
